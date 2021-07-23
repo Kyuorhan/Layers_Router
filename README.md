@@ -174,7 +174,7 @@ end.
 
 Take note that in the method Render we define as Result the Layout1, it is necessary because this layout will be embed always that a route is triggered.
 
-## REGISTERING THE ROUTE FOR THE SCREEN
+## Registering the Route ofr the Screen
 
 Now that we already have a screen to be registered, let's go to the procedure which will make your screen ready to be triggered at any time.
 
