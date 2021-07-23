@@ -1,5 +1,6 @@
 
 
+
 #  Layers_Router - Library 
 
 Framework for creating Screen Route Layers for FMX (in Test) and VCL.
@@ -399,7 +400,6 @@ To call a link passing a Propersys, you use the following code:
 >  TLayers_Router.Link.&Throw('Cadastros', TPropersys.Create.ProprsString('Olá').Key('telacadastro'));
 ```
 Passing in the Link the TPropersys object with the ProprsString and a KEY so that the screen that will receive it can be sure that that Propersys was sent to it.
-
 
 ## SIDEBAR´s
 
