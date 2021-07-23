@@ -6,7 +6,7 @@ Framework for creating Screen Route Layers for FMX (in Test) and VCL.
 
 The Layers_Router Library aims to facilitate the call of screens being TForm or TFrame and Layouts embedded in FMX applications, and Panels in VCL applications, reducing screen coupling, giving more dynamism and practicality in building rich interfaces in Delphi.
 
-## ⚙️&nbsp; Installation 
+## ⚙️&nbsp; INSTALLATION 
 
 You can implement the Framework in two ways.
 
