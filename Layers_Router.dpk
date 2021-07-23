@@ -1,0 +1,59 @@
+package Layers_Router;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl,
+  fmx,
+  soaprtl,
+  dbrtl,
+  DbxCommonDriver,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon,
+  vcl;
+
+contains
+  JK.EventBus.Core in 'src\JK.EventBus.Core.pas',
+  JK.EventBus.Subscribers in 'src\JK.EventBus.Subscribers.pas',
+  JK.ObjectsMappers in 'src\JK.ObjectsMappers.pas',
+  JK.RTTIUtils in 'src\JK.RTTIUtils.pas',
+  JK.TypedList in 'src\JK.TypedList.pas',
+  Layers_Router.Helper in 'src\Layers_Router.Helper.pas',
+  Layers_Router.Interfaces in 'src\Layers_Router.Interfaces.pas',
+  Layers_Router.Link in 'src\Layers_Router.Link.pas',
+  Layers_Router in 'src\Layers_Router.pas',
+  Layers_Router.Propersys in 'src\Layers_Router.Propersys.pas',
+  Layers_Router.Render in 'src\Layers_Router.Render.pas',
+  Layers_Router.Sidebars in 'src\Layers_Router.Sidebars.pas',
+  Layers_Router.Story in 'src\Layers_Router.Story.pas',
+  Layers_Router.Switch in 'src\Layers_Router.Switch.pas',
+  Layers_Router.Utils in 'src\Layers_Router.Utils.pas';
+
+end.

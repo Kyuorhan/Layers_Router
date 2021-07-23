@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7038A3EC-BD85-4AA8-B65E-783D12D02F7F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Layers_Router.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Samples\VCL\Samples.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Layers_Router">
+        <MSBuild Projects="Layers_Router.dproj"/>
+    </Target>
+    <Target Name="Layers_Router:Clean">
+        <MSBuild Projects="Layers_Router.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Layers_Router:Make">
+        <MSBuild Projects="Layers_Router.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Samples">
+        <MSBuild Projects="Samples\VCL\Samples.dproj"/>
+    </Target>
+    <Target Name="Samples:Clean">
+        <MSBuild Projects="Samples\VCL\Samples.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Samples:Make">
+        <MSBuild Projects="Samples\VCL\Samples.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Layers_Router;Samples"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Layers_Router:Clean;Samples:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Layers_Router:Make;Samples:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
