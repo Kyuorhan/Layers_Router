@@ -418,6 +418,7 @@ TLayers_Router
 
 In the above example, we are generating a menu in the format of listbox inside of Layout5 and all the links clicked in this menu will be rendered on the Layout, if it can't pass the LinkContainer the same shall be rendered at MainContainer informed at Render from Layers_Router.
 
+
 You can also create menus based on categorized routes, it is enough at the route record to inform which category the route belongs
 
 ```java
