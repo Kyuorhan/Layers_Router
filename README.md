@@ -48,7 +48,7 @@ The implementation of the Interface ILayers_RouterComponent requires the declara
 >  RendTheFrame: is only called when your Class is really a Frames of the class TFrame;
 ```  
 
-#### &nbsp;Exemple in VCL :scroll:
+#### &nbsp;Example in VCL :scroll:
 
 Create a new Form in your application, include on a Panel aligned to the AlClient, implement the methods as below.
 
@@ -113,7 +113,7 @@ The implementation of the Interface ILayers_RouterComponent requires the declara
 
 Below the Code of a simple screen implementing the interface ILayers_RouterComponent and ready to be utilized.
 
-#### &nbsp;Exemple in FMX: :scroll:
+#### &nbsp;Example in FMX: :scroll:
 
 Create a new Form in your application, include on a Layout AlClient aligned and implement the methods as below.
 
