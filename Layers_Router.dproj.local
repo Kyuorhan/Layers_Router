@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2021/06/29 08:56:50.000.921,C:\Users\User\Downloads\Nova pasta\Layers_Router\Layers_Router.dproj=C:\Users\User\Downloads\Nova pasta\Layers_Router\Router4Delphi.dproj</Transaction>
+    <Transaction>2021/06/29 08:56:50.000.921,C:\Users\User\Downloads\Nova pasta\Layers_Router\Router4Delphi.dproj=C:\Users\User\Downloads\Nova pasta\Layers_Router\Layers_Router.dproj</Transaction>
     <Transaction>2021/06/29 09:00:24.000.731,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\JK.ObjectsMappers.pas</Transaction>
-    <Transaction>2021/06/29 09:00:24.000.747,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\JK.RTTIUtils.pas</Transaction>
-    <Transaction>2021/06/29 09:00:24.000.747,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\JK.TypedList.pas</Transaction>
     <Transaction>2021/06/29 09:00:24.000.716,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\JK.EventBus.Subscribers.pas</Transaction>
+    <Transaction>2021/06/29 09:00:24.000.747,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\JK.RTTIUtils.pas</Transaction>
     <Transaction>2021/06/29 09:00:24.000.716,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\JK.EventBus.Core.pas</Transaction>
+    <Transaction>2021/06/29 09:00:24.000.747,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\JK.TypedList.pas</Transaction>
     <Transaction>2021/06/29 09:07:11.000.656,=vcl.dcp</Transaction>
     <Transaction>2021/06/29 09:10:29.000.756,=soaprtl.dcp</Transaction>
     <Transaction>2021/06/29 09:11:19.000.903,=fmx.dcp</Transaction>
-    <Transaction>2021/06/29 09:11:54.000.341,=FireDAC.dcp</Transaction>
     <Transaction>2021/06/29 09:11:54.000.345,=FireDACCommon.dcp</Transaction>
-    <Transaction>2021/06/29 09:13:33.000.724,=dbrtl.dcp</Transaction>
+    <Transaction>2021/06/29 09:11:54.000.341,=FireDAC.dcp</Transaction>
     <Transaction>2021/06/29 09:13:33.000.731,=FireDACCommonDriver.dcp</Transaction>
     <Transaction>2021/06/29 09:13:33.000.728,=DbxCommonDriver.dcp</Transaction>
+    <Transaction>2021/06/29 09:13:33.000.724,=dbrtl.dcp</Transaction>
     <Transaction>2021/06/29 09:14:22.000.912,=xmlrtl.dcp</Transaction>
     <Transaction>2021/06/29 09:14:22.000.908,=rtl.dcp</Transaction>
     <Transaction>2021/06/29 09:29:32.000.346,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Helper.pas</Transaction>
@@ -23,9 +23,36 @@
     <Transaction>2021/06/29 09:29:35.000.115,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.pas</Transaction>
     <Transaction>2021/06/29 09:29:35.000.127,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Propersys.pas</Transaction>
     <Transaction>2021/06/29 09:29:36.000.093,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Sidebars.pas</Transaction>
-    <Transaction>2021/06/29 09:29:36.000.678,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Switch.pas</Transaction>
     <Transaction>2021/06/29 09:29:36.000.666,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Story.pas</Transaction>
+    <Transaction>2021/06/29 09:29:36.000.678,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Switch.pas</Transaction>
     <Transaction>2021/06/29 09:29:36.000.082,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Render.pas</Transaction>
     <Transaction>2021/06/29 09:29:36.000.683,=C:\Users\User\Downloads\Nova pasta\Layers_Router\src\Layers_Router.Utils.pas</Transaction>
-  </Transactions>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\JK.EventBus.Core.pas"/>
+    <File Path="src\JK.EventBus.Subscribers.pas"/>
+    <File Path="src\JK.ObjectsMappers.pas"/>
+    <File Path="src\JK.RTTIUtils.pas"/>
+    <File Path="src\JK.TypedList.pas"/>
+    <File Path="src\Layers_Router.Helper.pas"/>
+    <File Path="src\Layers_Router.Interfaces.pas"/>
+    <File Path="src\Layers_Router.Link.pas"/>
+    <File Path="src\Layers_Router.pas"/>
+    <File Path="src\Layers_Router.Propersys.pas"/>
+    <File Path="src\Layers_Router.Render.pas"/>
+    <File Path="src\Layers_Router.Sidebars.pas"/>
+    <File Path="src\Layers_Router.Story.pas"/>
+    <File Path="src\Layers_Router.Switch.pas"/>
+    <File Path="src\Layers_Router.Utils.pas"/>
+    <File Path="dbrtl.dcp"/>
+    <File Path="DbxCommonDriver.dcp"/>
+    <File Path="FireDAC.dcp"/>
+    <File Path="FireDACCommon.dcp"/>
+    <File Path="FireDACCommonDriver.dcp"/>
+    <File Path="fmx.dcp"/>
+    <File Path="rtl.dcp"/>
+    <File Path="soaprtl.dcp"/>
+    <File Path="vcl.dcp"/>
+    <File Path="xmlrtl.dcp"/>
+  </ProjectSortOrder>
 </BorlandProject>
