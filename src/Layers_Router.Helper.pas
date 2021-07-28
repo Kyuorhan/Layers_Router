@@ -66,7 +66,7 @@ begin
       (Self.Controls[LIndex] as TForm).Close;
 
     if (Self.Controls[LIndex] is TFrame) then
-      //(Self.Controls[LIndex] as TFrame).Free;
+      (Self.Controls[LIndex] as TFrame).Hide;
   end;
 end;
 
